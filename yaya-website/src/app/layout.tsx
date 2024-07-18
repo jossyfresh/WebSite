@@ -1,5 +1,10 @@
 import "@mantine/core/styles.css";
-import { ColorSchemeScript, MantineProvider } from "@mantine/core";
+import {
+  BackgroundImage,
+  ColorSchemeScript,
+  MantineProvider,
+  Stack,
+} from "@mantine/core";
 import { Header } from "../../components/Header";
 import { Footer } from "../../components/Footer";
 
@@ -18,7 +23,11 @@ export default function RootLayout({
       <head>
         <ColorSchemeScript />
       </head>
-      <body>
+      <body
+        style={{
+          background: "#FBFBFB",
+        }}
+      >
         <MantineProvider>
           <Header />
           {children}

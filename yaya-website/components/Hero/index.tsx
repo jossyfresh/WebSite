@@ -5,7 +5,13 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <Flex justify={"space-between"} px={20} pos={"relative"} gap={50}>
+    <Flex
+      justify={"space-between"}
+      px={20}
+      pos={"relative"}
+      gap={50}
+      bg={"#FBFBFB"}
+    >
       <Flex gap={40} w={"50%"} px={30} align={"center"}>
         <Image
           style={{
@@ -20,21 +26,21 @@ export default function Hero() {
           <Text size="60px" c={"#696A69"}>
             <span
               style={{
-                color: "#17A7B8",
+                color: "#293D46",
               }}
             >
               Building{" "}
             </span>
             <span
               style={{
-                color: "#A0A0A0",
+                color: "#293D46",
               }}
             >
               Skyscrapers{" "}
             </span>
             <span
               style={{
-                color: "#696A69",
+                color: "#293D46",
               }}
             >
               Bridges{" "}
@@ -42,27 +48,25 @@ export default function Hero() {
             &{" "}
             <span
               style={{
-                color: "#FE8431",
+                color: "#293D46",
               }}
             >
               {" "}
               Dreams
             </span>
           </Text>
-          <Text size="sm" c={"#9E9E9E"}>
+          <Text size="sm" c={"#828E8E"}>
             Lorem ipsum dolor sit amet consectetur. Blandit eu magna sit eu sit.
             Aliquet magna tincidunt nascetur et congue metus.
           </Text>
           <Flex gap={20}>
             <Button
               style={{
-                background: "#17A7B8",
+                background: "#293D46",
                 borderTopLeftRadius: "30px",
                 borderBottomRightRadius: "30px",
                 // make it lonegr to the bottom
                 // make the color of the shadow #17A7B8
-
-                boxShadow: "0 20px 15px -4px rgba(135, 199, 209, 0.8)",
               }}
               w={150}
               h={40}
@@ -76,11 +80,11 @@ export default function Hero() {
                 background: "white",
                 borderTopLeftRadius: "30px",
                 borderBottomRightRadius: "30px",
-                border: "2px solid #17A7B8",
+                border: "2px solid #293D46",
               }}
               w={150}
               h={40}
-              c={"#17A7B8"}
+              c={"#828E8E"}
               variant="outline"
             >
               Contact Us

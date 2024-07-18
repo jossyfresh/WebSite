@@ -3,7 +3,7 @@ import React from "react";
 
 export default function WhyChooseUs() {
   return (
-    <Stack py={100} px={50} gap={100}>
+    <Stack py={100} px={50} gap={100} bg={"#EAF3F5"}>
       <Flex justify={"space-between"}>
         <Stack w={500}>
           <Text size="md" c={"#696A69"}>

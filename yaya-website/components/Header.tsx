@@ -8,13 +8,16 @@ import {
   Flex,
   Stack,
   Text,
+  BackgroundImage,
+  Button,
 } from "@mantine/core";
+import classes from "./Header.module.css";
 
 export function Header() {
   return (
-    <Flex justify={"space-between"} px={50} py={40}>
+    <Flex justify={"space-between"} px={50} py={45} align={"center"}>
       <Stack>
-        <Text size="lg" c={"#17A7B8"} fw={700}>
+        <Text size="lg" c={"#293D46"} fw={600}>
           YAYA Construction
         </Text>
       </Stack>
@@ -29,16 +32,18 @@ export function Header() {
             Home
           </Text>
         </Stack>
-        <Stack>
-          <Text fw={600} c={"white"}>
-            Explore
-          </Text>
-        </Stack>
+
         <Stack>
           <Text fw={600} c={"white"}>
             About Us
           </Text>
         </Stack>
+        <Stack>
+          <Text fw={600} c={"white"}>
+            Our Portfolio
+          </Text>
+        </Stack>
+
         <Stack>
           <Text fw={600} c={"white"}>
             Contact Us
