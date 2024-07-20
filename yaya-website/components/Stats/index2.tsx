@@ -16,7 +16,7 @@ export default function Stat() {
               Shaping
             </span>
           </Text>
-          <Text size="45px">Tomorrow's Skylines </Text>
+          <Text size="45px">Tomorrow&apos;s Skylines </Text>
         </Stack>
         <Stack w={"50%"}>
           <Text
