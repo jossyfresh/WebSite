@@ -1,14 +1,9 @@
-import Image from "next/image";
-import Hero from "../../components/Hero";
-import Stats from "../../components/Stats";
-import WhyChooseUs from "../../components/WhyChooseUs";
-import OurBestWork from "../../components/OurBestWork";
-import Hero2 from "../../components/Hero2";
-import Stat from "../../components/Stats/index2";
-import Solution from "../../components/Solution";
-import Buildings from "../../components/OurBestWork/index2";
-import Testimonial from "../../components/Testimonials";
-import Banner from "../../components/Banner";
+import Hero from "../../components/Landing/Hero";
+import Stat from "../../components/Landing/Stats/index2";
+import Solution from "../../components/Landing/Solution";
+import Buildings from "../../components/Landing/OurBestWork/index2";
+import Testimonial from "../../components/Landing/Testimonials";
+import Banner from "../../components/Landing/Banner";
 
 export default function Home() {
   return (
